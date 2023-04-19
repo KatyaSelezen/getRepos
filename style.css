@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+.add-item{
+    margin: 2px;
+    padding:0px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.add-item:hover{
+    background-color: aqua;
+}
+.db__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.delete-btn{
+    background-color: red;
+    height: 20px;
+    margin: auto;
+    cursor:pointer;
+}
